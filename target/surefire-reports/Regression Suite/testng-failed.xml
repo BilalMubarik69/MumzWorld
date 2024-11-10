@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="Self Heal(failed)">
+    <classes>
+      <class name="TestCases.testRun">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifySelfHeal"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="QuitDriver"/>
+        </methods>
+      </class> <!-- TestCases.testRun -->
+    </classes>
+  </test> <!-- Self Heal(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
